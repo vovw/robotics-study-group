@@ -187,5 +187,3 @@ for episode in range(HM_EPISODES):
 
     if episode % 100 == 0:
         print(f"Episode {episode}, Average Reward: {np.mean(episode_rewards[-100:])}")
-
-# ... [rest of the code remains the same] ...
